@@ -4,6 +4,8 @@ import java.io.Serializable;
 
 import javax.sound.sampled.*;
 
+import com.ALEAP.io.Display;
+
 
 public class Question implements Comparable<Question>, Serializable {
 	private int ID;

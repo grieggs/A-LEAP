@@ -64,8 +64,8 @@ public class CLQuizDesigner {
 				System.out.println("Invaild Answer");
 			}
 		}
-		//ystem.out.print("Please input the write location: ");
-		//File x = new File(in.nextLine);
+		//System.out.print("Please input the write location: ");
+		//File x = new File(in.nextLine());
 		File x = new File("H:\\");
 		QuizIO.writeQuiz(x, newQuiz, newQuiz.getName());
 
