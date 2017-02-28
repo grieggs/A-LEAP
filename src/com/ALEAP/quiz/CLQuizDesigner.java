@@ -2,10 +2,10 @@ package com.ALEAP.quiz;
 import java.io.File;
 import java.util.Scanner;
 
+import com.ALEAP.io.QuizIO;
 import com.ALEAP.objects.MulitipleChoiceQuestion;
 import com.ALEAP.objects.Question;
 import com.ALEAP.objects.Quiz;
-import com.ALEAP.objects.QuizIO;
 import com.ALEAP.objects.Topic;
 public class CLQuizDesigner {
 	public static void main(String args[]){
